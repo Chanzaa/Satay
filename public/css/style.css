@@ -1,0 +1,81 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Satisfy&display=swap');
+
+/* semua */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  }
+
+body {
+   font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 40px;
+}
+
+/* navbar */
+nav {
+  background-color: #CCF6C8;
+}
+.navbar-brand {
+  font-family: 'Satisfy', cursive;
+}
+
+.nav-item a {
+  color: whitesmoke;
+}
+
+
+/* header */
+
+.header {
+  margin-top: 80px;
+}
+
+.text-wrap {
+  text-align :start;
+  margin: 0 30px;
+ 
+}
+.text-header {
+  letter-spacing: -5px;
+}
+
+/* services */
+
+#services img {
+  height: 150px;
+}
+
+#about {
+  background-color: #CCF6C8;
+}
+
+
+/* Menu */
+
+#menu {
+  background-color: #CCF6C8;
+}
+
+
+#menu img {
+  height: 200px;
+  width: 150;
+  
+}
+
+
+/* footer */
+#footer .copy-logo {
+  font-size: 40px;
+}
